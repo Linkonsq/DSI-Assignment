@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron">
+    <h2>User Login Successful</h2>
+    @Html.ActionLink("Log Out", "Index", "Home", null, new { @class = "btn btn-primary" })
+</div>
+

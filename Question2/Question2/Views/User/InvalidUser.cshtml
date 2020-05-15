@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "InvalidUser";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron">
+    <h2>Invalid Email or Password.</h2>
+    <h2>Please try again.</h2>
+    @Html.ActionLink("Log In", "Login", "User", null, new { @class = "btn btn-primary" })
+</div>
+
+

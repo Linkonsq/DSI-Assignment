@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>DSi Coding Test</h1>
+    @Html.ActionLink("Log In", "Login", "User", null, new { @class = "btn btn-primary" })
+    @Html.ActionLink("Register", "Register", "User", null, new { @class = "btn btn-primary" })
+</div>
